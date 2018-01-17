@@ -18,7 +18,7 @@ if exist %BATFILE% del %BATFILE%
 echo @ECHO OFF >> %BATFILE%
 echo :: Dirf2018 Java Loader - https://github.com/tavinus/dirf-javaloader >> %BATFILE%
 echo :: Use o instalador em: https://raw.githubusercontent.com/tavinus/dirf-javaloader/master/dirf2018-javaloader-install.bat  >> %BATFILE%
-echo set FIREBIRD=%DIRFFOLDER%\clientfirebird  >> %BATFILE%
+echo set FIREBIRD=%DIRFFOLDER%\clientfirebird >> %BATFILE%
 echo start /d "%DIRFFOLDER%" "" "javaw" -jar pgdDirf.jar -classpath "%DIRFFOLDER%\lib" >> %BATFILE%
 
 

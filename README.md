@@ -1,5 +1,5 @@
 # dirf-javaloader
-Faz o dirf rodar ao clicar nele  
+Faz o dirf rodar ao clicar nele **(gênio)**  
 *Às vezes as coisas mais simples são as mais difíceis* 
 
 ## Instalação

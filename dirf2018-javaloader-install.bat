@@ -1,7 +1,7 @@
 @echo off
 :: Gustavo Arnosti Neves - Jan 2018
 :: https://github.com/tavinus/dirf-javaloader
-:: Use o instalador em: https://github.com/tavinus/dirf-javaloader/dirf2018-javaloader-install.bat
+:: Use o instalador em: https://raw.githubusercontent.com/tavinus/dirf-javaloader/master/dirf2018-javaloader-install.bat
 
 :: Se voce instalou o Dirf2018 em uma pasta diferente, mude aqui!
 set DIRFFOLDER=C:\Arquivos de Programas RFB\Dirf2018
@@ -17,7 +17,7 @@ if exist %BATFILE% del %BATFILE%
 
 echo @ECHO OFF >> %BATFILE%
 echo :: Dirf2018 Java Loader - https://github.com/tavinus/dirf-javaloader >> %BATFILE%
-echo :: Use o instalador em: https://github.com/tavinus/dirf-javaloader/dirf2018-javaloader-install.bat  >> %BATFILE%
+echo :: Use o instalador em: https://raw.githubusercontent.com/tavinus/dirf-javaloader/master/dirf2018-javaloader-install.bat  >> %BATFILE%
 echo set PATH=%DIRFFOLDER%\clientfirebird;%%PATH%% >> %BATFILE%
 echo start /d "%DIRFFOLDER%" "" "javaw" -jar pgdDirf.jar -classpath "%DIRFFOLDER%\lib" >> %BATFILE%
 

@@ -12,9 +12,11 @@ O Dirf vai reclamar se voce tentar rodar o Dirf64 no Java32.
 
 Depois de ter o Java e Dirf instalados,  
 Baixe o arquivo [dirf2018-javaloader-install.bat](https://raw.githubusercontent.com/tavinus/dirf-javaloader/master/dirf2018-javaloader-install.bat)  
+`(Clique com o botão direito, salvar como...)`  
+  
 Basta rodar o arquivo e você terá um novo ícone no seu Desktop:
 ```
 Dirf2018-java
 ```
 
-Teoricamente o programa vai abrir quando você mandar ele abrir agora.
+Teoricamente o programa vai abrir quando você mandar ele abrir agora.  
